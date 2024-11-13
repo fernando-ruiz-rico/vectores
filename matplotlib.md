@@ -27,7 +27,6 @@ plt.grid()
 plt.show()
 ```
 
-Explicación de cada parte:
 - `plt.quiver(0, 0, vector_a[0], vector_a[1], ...)`: Aquí, `(0, 0)` es el origen del vector, y `(vector_a[0], vector_a[1])` representa las coordenadas finales del vector.
 - `angles='xy'`, `scale_units='xy'`, `scale=1`: Estos ajustes aseguran que el vector se represente de forma correcta en el gráfico.
 - `plt.xlim(-5, 5)` y `plt.ylim(-5, 5)`: Ajustan el rango del gráfico en los ejes x e y, de -5 a 5 en este caso.
